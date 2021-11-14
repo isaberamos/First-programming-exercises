@@ -1,2 +1,2 @@
 # Programinhas
- Exercicios resolvidos
+ Exercícios resolvidos
