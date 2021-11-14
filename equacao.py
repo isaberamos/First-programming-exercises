@@ -16,6 +16,3 @@ if delta >= 0:
 
 else:
     print("Esta equação não possui raízes reais")
-
-# except Exception as e:
-#    print("Esta equação não possui raízes reais")
