@@ -1,4 +1,4 @@
-def cria_matriz(num_linhas, num_colunas, valor):
+def cria_matriz(num_linhas, num_colunas):
     '''(int, int, valor) -> matriz(lista de valores)
         Cria e retorna uma matriz com num_linhas e num_colunas
         colunas em que cada elemento é digitado pelo usuário.
@@ -25,7 +25,6 @@ def cria_matriz(num_linhas, num_colunas, valor):
 def le_matriz():
     lin = int(input("Digite o número de linhas da matriz: "))
     col = int(input("Digite o número de colunas da matriz: "))
-    return cria_matriz(lin, col, cria_matriz)
+    return cria_matriz(lin, col)
 
-
-print(le_matriz(2,3,99))
+print(le_matriz())
