@@ -3,4 +3,4 @@ def mprimo(n):
         n = n % 2 != 0
     return n
 
-print(mprimo(7))
+print(mprimo(221))

@@ -3,17 +3,17 @@ total_segs = int(segundos_str)
 
 qtd_horas_dia = 24
 qtd_minutos_hora = 60
-qtd_segudos_minuto = 60
+qtd_segundos_minuto = 60
 
-qtd_segundos_dia = (qtd_horas_dia * qtd_minutos_hora * qtd_segudos_minuto)
+qtd_segundos_dia = (qtd_horas_dia * qtd_minutos_hora * qtd_segundos_minuto)
 dias = total_segs // qtd_segundos_dia
 resto_dias = total_segs % qtd_segundos_dia
 
-qtd_segundos_hora = (qtd_minutos_hora * qtd_segudos_minuto)
+qtd_segundos_hora = (qtd_minutos_hora * qtd_segundos_minuto)
 horas = resto_dias // qtd_segundos_hora
 resto_horas = resto_dias % qtd_segundos_hora
 
-minutos = resto_horas // qtd_segudos_minuto
-segundos = resto_horas % qtd_segudos_minuto
+minutos = resto_horas // qtd_segundos_minuto
+segundos = resto_horas % qtd_segundos_minuto
 
 print(dias, "dias, ", horas, "horas, ", minutos, "minutos e", segundos, "segundos.")

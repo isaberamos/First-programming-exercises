@@ -9,5 +9,4 @@ while (not terminou):
             count += 1
             print(n, "é um número primo")
         else:
-            n % 2 == 0
             print(n, "não é um número primo")
