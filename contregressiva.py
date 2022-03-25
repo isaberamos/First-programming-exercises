@@ -1,3 +1,4 @@
+import time
 from time import sleep
 
 print("=" * 35)

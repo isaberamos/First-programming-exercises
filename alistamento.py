@@ -1,6 +1,6 @@
 from datetime import date
 print("\033[35m-=-" * 10)
-print("     ALISTAMENTO MILITAR") # Pode usar o texto.center(núm de linha)
+print("     ALISTAMENTO MILITAR")
 print("\033[35m-=-" * 10)
 atual = date.today().year
 nascimento = int(input("Digite o ano de seu nascimento: "))
