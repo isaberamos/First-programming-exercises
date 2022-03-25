@@ -7,7 +7,7 @@ class Buscador:
 
     def busca_binaria(self, lista, x):
         primeiro = 0
-        ultimo = len(lista(-1))
+        ultimo = len(lista) -1
 
         while primeiro <= ultimo:
             meio = (primeiro + ultimo) // 2
@@ -22,4 +22,4 @@ class Buscador:
 
 lista = [-100, 5, 25, 64, 88]
 b = Buscador()
-b.busca_binaria(lista, 5)
+print(b.busca_binaria(lista, 5)
