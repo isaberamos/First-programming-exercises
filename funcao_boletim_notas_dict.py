@@ -22,4 +22,4 @@ def boletim(*n, sit=False):
 
 # Programa principal
 r = boletim(5.5, 6.5, 7.0, 8.5, sit=True)
-help(boletim)
+print(r)
