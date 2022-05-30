@@ -20,7 +20,7 @@ for c in range(0,5):
             mai = listanum[c]
         if:
             if listanum[c] < men:
-            men = listanum[c]
+                men = listanum[c]
 print(f"Você digitou os valores {listanum}")
 print(f"O maior valor digitado foi {mai} e o menor foi {men} nas posições ")
 for i, v in enumerate(listanum):

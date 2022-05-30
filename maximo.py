@@ -13,3 +13,5 @@ def maximo(x, y):
         return x
     else :
         return y
+
+print(maximo(10,15))

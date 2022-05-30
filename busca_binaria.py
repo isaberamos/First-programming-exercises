@@ -22,4 +22,4 @@ class Buscador:
 
 lista = [-100, 5, 25, 64, 88]
 b = Buscador()
-print(b.busca_binaria(lista, 5)
+print(b.busca_binaria(lista, 5))
