@@ -13,4 +13,4 @@ else:
     if x < y:
         print(f"O menor valor é x, e portanto, {x}")
     else:
-        print(f"O menor valor é x, e portanto, {y}")
+        print(f"O menor valor é y, e portanto, {y}")
